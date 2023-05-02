@@ -19,7 +19,7 @@ Console.WriteLine();
 for (j = 0; j < n; j++)
 {
 randomArray[i,j] = rand.NextDouble() * 100;  // NextDouble() дает случайное вещественное число
-Console.Write($"{randomArray[i,j]:F2} ");
+Console.Write($"{randomArray[i,j]:G2} ");
 }
 }
 }
